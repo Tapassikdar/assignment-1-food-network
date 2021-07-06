@@ -4,6 +4,31 @@ body{
     font-family: 'Roboto', sans-serif;
 
 }
+.menu{
+    display: flex;
+    height: 70px;
+    background-color: #3B3B3B;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.menu-logo{
+    padding-left: 40px;
+    font-size: 50px;
+}
+ul{
+    list-style: none;
+    display: flex;
+}
+ul li a{
+    padding: 0 60px;
+    font-size: 30px;
+    color: white;
+    font-weight: 400;
+    text-decoration: none;
+
+}
 h1{
     font-size: 50px;
 }
@@ -89,6 +114,26 @@ footer h1{
 }
 footer p{
     color: white;
+    font-size: 30px;
+    text-align: center;
+}
+.counter-flexable-container{
+    display: flex;
+    margin: 10%;
+    border: 10px solid whitesmoke ;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px gray;
+}
+.counter-quarter-width{
+    width: 30%;
+    padding: 0 10%;
+   
+}
+.counter-quarter-width p{
+    font-size: 20px;
+    text-align: center;
+}
+.counter-quarter-width h1{
     font-size: 30px;
     text-align: center;
 }
